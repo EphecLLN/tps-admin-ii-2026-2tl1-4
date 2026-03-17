@@ -1,0 +1,14 @@
+$TTL 86400
+@   IN  SOA ns.l1-4.ephec-ti.be. admin.l1-4.ephec-ti.be. (
+        2026031701 ; Serial (Date du jour + numéro d'ordre)
+        3600       ; Refresh
+        1800       ; Retry
+        604800     ; Expire
+        86400 )    ; Minimum TTL
+
+; Serveur de noms (NS)
+    IN  NS  ns.l1-4.ephec-ti.be.
+
+; Enregistrements A (Lien Nom -> IP)
+ns  IN  A   91.134.137.237
+www IN  A   91.134.137.237
