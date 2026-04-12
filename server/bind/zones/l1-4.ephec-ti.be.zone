@@ -6,7 +6,8 @@ $TTL 86400
         604800     ; Expire
         86400 )    ; Minimum TTL
 
-    IN  NS  ns.l1-4.ephec-ti.be.
-@   IN  A   91.134.137.237
-ns  IN  A   91.134.137.237
-www IN  A   91.134.137.237
+     IN  NS  ns.l1-4.ephec-ti.be.
+@    IN  A   91.134.137.237
+ns   IN  A   91.134.137.237
+www  IN  A   91.134.137.237
+blog IN A   91.134.137.237
