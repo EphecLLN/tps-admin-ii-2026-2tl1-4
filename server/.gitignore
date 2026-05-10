@@ -1,2 +1,2 @@
 .env
-server/mailserver/docker-data/
+mailserver/docker-data/

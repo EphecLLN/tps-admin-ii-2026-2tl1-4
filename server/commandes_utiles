@@ -19,4 +19,11 @@ docker run --name php --rm -d \
   --mount type=bind,source=$(pwd)/html/www,target=/var/www/html/www \
   php:fpm
 
+#pour lancer le docker compose 
+docker compose up -d --build
 
+#clear le docker
+docker compose down -v
+
+#relancer le docker
+docker compose up -d
